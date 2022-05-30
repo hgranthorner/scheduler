@@ -42,7 +42,7 @@ executables:
     - -with-rtsopts=-N
     - -Wall
     - -Wincomplete-uni-patterns
-    - -Wpartial-fields
+    # - -Wpartial-fields
     dependencies:
     - scheduler
 

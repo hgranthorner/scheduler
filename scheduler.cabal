@@ -46,7 +46,7 @@ executable scheduler-exe
       Paths_scheduler
   hs-source-dirs:
       app
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N -Wall -Wincomplete-uni-patterns -Wpartial-fields
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -Wall -Wincomplete-uni-patterns
   build-depends:
       base >=4.7 && <5
     , bytestring
